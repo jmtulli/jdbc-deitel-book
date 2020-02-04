@@ -9,6 +9,10 @@ import java.sql.Statement;
 
 import javax.swing.table.AbstractTableModel;
 
+/**
+ * Class to use JDBC method.<br>
+ * Based on example from Deitel's Java HTP book
+ */
 public class ResultSetTableModel extends AbstractTableModel {
 
 	private Statement statement;

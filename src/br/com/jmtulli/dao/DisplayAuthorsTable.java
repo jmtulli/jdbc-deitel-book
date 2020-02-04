@@ -7,6 +7,10 @@ import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ * Class to use JDBC method to show result of the select query.<br>
+ * Based on example from Deitel's Java HTP book
+ */
 public class DisplayAuthorsTable {
 
 	public static void main(String[] args) {

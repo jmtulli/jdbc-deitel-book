@@ -1,4 +1,4 @@
-package br.com.jmtulli.main;
+package br.com.jmtulli.test;
 
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
@@ -14,6 +14,11 @@ import javax.swing.JTable;
 
 import br.com.jmtulli.dao.ResultSetTableModel;
 
+/**
+ * Test class for ResultSetTableModel.<br>
+ * Show a table with the result of the defult_query
+ * 
+ */
 public class DisplayQueryResults extends JFrame {
 
 	private static ResultSetTableModel tableModel;
